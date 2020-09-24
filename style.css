@@ -1,0 +1,380 @@
+@charset "UTF-8";
+
+
+
+:root 
+{
+	--frame: 75px;
+	--fd3: calc(var(--frame)/3);
+}
+
+html, body
+{
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+	font-size: 20px;
+	text-align: left;
+	display: inline-block;
+	color: black;
+}
+
+
+#header
+{
+	background-color: white;
+	position: fixed;
+	width: calc(100% - (var(--frame) * 2));
+	height: var(--fd3);
+	float: left;
+	padding-left: var(--frame);
+	padding-top: var(--fd3);
+	padding-bottom: var(--fd3);
+	padding-right: var(--frame);
+	z-index: 1;
+	
+}
+
+#nav
+{
+/*	background-color: crimson;*/
+	position: relative;
+	width: 70%;
+	height: var(--fd3);
+	float: left;
+	font-weight: 300;
+}
+
+#links
+{
+/*	background-color: hotpink;*/
+	position: relative;
+	width: 30%;
+	height: var(--fd3);
+	float: right;
+}
+
+#xa
+{
+	position: relative;
+/*	background-color: antiquewhite;*/
+	width: var(--fd3);
+	height: var(--fd3);
+	float: left;
+	margin-right: 62px;
+	font-weight: 900;
+}
+
+#ci
+{
+	position: relative;
+/*	background-color: burlywood;*/
+	width: var(--fd3);
+	height: var(--fd3);
+	float: left;
+	margin-right: 85px;
+}
+
+#tri
+{
+/*	background-color: lightsalmon;*/
+	font-size: 40px;
+	position: absolute;
+	top: -5px;
+	left: 125px;
+}
+
+.icon
+{
+/*	background-color: black;*/
+	float: right;
+	margin-left: 10px;
+	margin-top: -10px; 
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#vimeo
+{
+	width: 60px;
+	height: 60px;
+	background-image: url(images/large_slack-imgs.com.png);
+}
+
+#dreams
+{
+	margin-top: -20px;
+	width: 80px;
+	height: 80px;
+	background-image: url(images/dreams-subnav-logo-01-ps4-11jun18-en-us.png);
+}
+
+#instagram
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+	background-image: url(images/87390.png);
+}
+
+#left
+{
+	background-color: white;
+	width: var(--frame); 
+	height: 100%;
+	position: fixed;
+	float: left;
+	top: var(--frame);
+}
+
+#title
+{
+/*	background-color: mediumturquoise;*/
+	position: relative;
+	width: 480px;
+	height: var(--fd3);
+	top: calc(50% - var(--frame));
+/*	transform:  translateX(calc( (var(--frame) * -1) + (var(--fd3) / 2) )) rotate(-90deg);*/
+	transform:  translateX(-203px) rotate(-90deg);
+	transform-origin: center center;
+	float: left;
+	
+}
+
+#name
+{
+	height: var(--fd3);
+	width: 227px;
+/*	background-color: magenta;*/
+	position: relative;
+	float: left;
+	font-weight: 900;
+	margin-right: 10px;
+}
+
+.descriptions
+{
+	font-weight: 700;
+	font-size: 8px;
+	float: left;
+	margin-right: 8px;
+	text-align: justify;
+	padding-top: 2px;
+}
+
+.descriptions:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.ampersands
+{
+	padding-top: 5px;
+}
+
+
+.ampersands
+{
+	padding-top: 7px;
+}
+
+#artwork
+{
+/*	background-color: cadetblue;*/
+	margin-left: var(--frame);
+	margin-top: var(--frame);
+	margin-right: var(--frame);
+	position: relative;
+	width: calc(100% - (var(--frame) * 2));
+	height:100%;
+/*	z-index: -1;*/
+	float: left;
+/*
+	display: flex;
+  	justify-content: space-between;
+*/
+}
+
+
+
+.thumb
+{
+	position: relative;
+	background-color: gray;
+	width: calc(25% - 5px);
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.thumb:before {
+	content: "";
+	float: left;
+	padding-top: 100%;
+}
+
+.noMargin
+{
+	margin-right: 0px;
+}
+
+
+#right
+{
+	background-color: white;
+	position:fixed;
+	top:0;
+	right:0;
+	width:var(--frame);
+	margin-top: var(--frame);
+	height:calc(100% - var(--frame));
+	padding-top: 70px;
+}
+
+#misc
+{
+/*	background-color: mediumturquoise;*/
+	position: relative;
+	width: 270px;
+	height: var(--fd3);
+	top: calc(50% - var(--frame));
+/*	transform:  translateX(calc( (var(--frame) * -1) + (var(--fd3) / 2) )) rotate(-90deg);*/
+	transform:  translateX(-98px) rotate(90deg);
+	transform-origin: center center;
+	float: left;
+	padding-top: 5px;
+}
+
+.miscClass
+{
+	float: left;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.dividers
+{
+	margin-top: -5px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+
+#shadowBox {
+	background-color: black;
+	opacity: 0.7;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+img 
+{
+	background-color: white;
+	max-width:100%;
+	max-height:calc(100vh - 50px);
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	box-sizing: border-box;
+}
+
+#fullsize {
+/*	background-color:white;*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	z-index: 1;
+}
+
+.portrait
+{
+	width: 700px;
+	height: auto;
+}
+
+.landscape
+{
+	width: 500px;
+	height: auto;
+}
+
+.display {
+	display: none;
+}
+
+.img1
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/vrScene2.png");
+}
+
+.img2
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/petals12.jpg");
+}
+
+.img3
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/styleTest1.jpg");
+}
+
+.img4
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/sceneVariations3.jpg");
+}
+
+.img5
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/petalsW3cropped.png");
+}
+
+.img6
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/noiseCharacter1.jpg");
+}
+
+.img7
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/flowerfaceStill.jpg");
+}
+
+.img8
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/3Dscene1.jpg");
+}
+
+.img9
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/noiseIllustration2.jpg");
+}
+
+.img10
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/fogMountains.jpg");
+}
+
+.img11
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/particleBlurStill2.jpg");
+}
+
+.img12
+{
+	background-image: url("http://u.cubeupload.com/fincannonwb/displace8.jpg");
+}
+
+
+
+
+
