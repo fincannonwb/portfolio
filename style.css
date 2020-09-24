@@ -98,9 +98,9 @@ html, body
 
 #vimeo
 {
-	width: 60px;
-	height: 60px;
-	background-image: url(images/large_slack-imgs.com.png);
+	width: 70px;
+	height: 70px;
+/*	background-image: url(images/large_slack-imgs.com.png);*/
 }
 
 #dreams
@@ -108,16 +108,16 @@ html, body
 	margin-top: -20px;
 	width: 80px;
 	height: 80px;
-	background-image: url(images/dreams-subnav-logo-01-ps4-11jun18-en-us.png);
+/*	background-image: url(images/dreams-subnav-logo-01-ps4-11jun18-en-us.png);*/
 }
 
 #instagram
 {
-	margin-top: 10px;
+	margin-top: -5px;
 	margin-left: 10px;
-	width: 20px;
-	height: 20px;
-	background-image: url(images/87390.png);
+	width: 30px;
+	height: 30px;
+/*	background-image: url(images/87390.png);*/
 }
 
 #left
