@@ -21,6 +21,7 @@ html, body
 }
 
 
+
 #header
 {
 	background-color: white;
@@ -53,6 +54,22 @@ html, body
 	width: 30%;
 	height: var(--fd3);
 	float: right;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#cv
+{
+	text-decoration: line-through;
+}
+
+#contact
+{
+	text-decoration: line-through;
 }
 
 #xa
@@ -100,7 +117,7 @@ html, body
 {
 	width: 70px;
 	height: 70px;
-	margin-top: -2px;
+	margin-top: -5px;
 /*	background-image: url(images/large_slack-imgs.com.png);*/
 }
 
@@ -114,7 +131,7 @@ html, body
 
 #instagram
 {
-	margin-top: 5px;
+	margin-top: 2px;
 	margin-right: -5px;
 	width: 30px;
 	height: 30px;
