@@ -37,6 +37,13 @@ html, body
 	
 }
 
+.videoContainer
+{
+	width: calc(100% - 5px);
+	height: 500px;
+	
+}
+
 #nav
 {
 /*	background-color: crimson;*/
@@ -409,7 +416,7 @@ img
 
 .img16
 {
-	background-image: url("http://u.cubeupload.com/fincannonwb/branches123.jpg");
+	background-image: url("http://u.cubeupload.com/fincannonwb/styleTest3.jpg");
 }
 
 
